@@ -1,4 +1,4 @@
-package edu.carrollcc.cis232.HSQLDBExample;
+package edu.cis232.inClassLab;
 
 import java.sql.*;
 
