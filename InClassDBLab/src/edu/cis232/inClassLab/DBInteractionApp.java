@@ -61,7 +61,7 @@ public class DBInteractionApp {
 				
 				updateCustomer.execute();
 			}else{
-				 sql = "insert into Customer (CustomerNumber) value = ?";
+				 sql = "insert into Customer (CustomerNumber) values = ?";
 				PreparedStatement addCustomer = conn.prepareStatement(sql);
 				addCustomer.setString(1, custNum);
 				System.out.println("Your customer number was added.");
